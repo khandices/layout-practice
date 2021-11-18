@@ -4,7 +4,7 @@ In this exercise you will take an existing site and apply Grid & Flexbox to it t
 
 ## Step 1:  Livecode
 
-Your instructor will demonstrate how to lay out the header using the Grid and Flexbox systems.
+Your instructor will demonstrate how to lay out the navigation menu using the Grid and Flexbox systems.
 
 ## Step 2:  Team Practice
 
