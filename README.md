@@ -22,3 +22,6 @@ The footer and top menu also make great candidates for use as Flex Containers.
 ## Sample Solution
 
 You can see one solution for this [on CodeSandbox](https://tmgwz.csb.app/).
+
+
+Taken from an [existing sanbox](https://codesandbox.io/s/30n3xw24mq).
