@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
+
 * {
   box-sizing: border-box;
 }
@@ -25,13 +26,16 @@ body {
 
 nav {
   background: #29f194;
-  padding: 0.8em;
   position: fixed;
   top: 0;
+  position:fixed
+
 }
 
 .main-nav {
   padding-inline-start: 0;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 600px) {
@@ -52,6 +56,11 @@ li a {
   text-decoration: none;
 }
 
+li:hover {
+  cursor: pointer;
+  background-color: none;
+  transition: all 150ms ease-in-out;
+}
 li a:hover {
   text-decoration: underline;
 }
@@ -99,6 +108,7 @@ button:hover {
   border: 2px solid #29f194;
   background: none;
   color: aliceblue;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -118,10 +128,17 @@ button:hover {
 
 .grid {
   background: aliceblue;
+  display: grid;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  padding: 5%;
 }
 
 .grid__item {
   background: rgba(68, 68, 68, 0.1);
+  padding:10%;
+  margin:10%;
 }
 
 .grid__item > img {
@@ -136,3 +153,4 @@ button:hover {
   padding: 1.2em;
   text-align: center;
 }
+
